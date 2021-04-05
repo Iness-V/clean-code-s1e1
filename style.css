@@ -148,18 +148,18 @@ li>input[type="text"] {
   width: 226px;
 }
 
-li>button.delete:hover {
+.todo-list__delete:hover {
   color: #cf2323;
 }
 
-button.delete 
+.todo-list__delete 
 img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete 
+.todo-list__delete 
 img:hover {
   transform: rotateZ(0);
 }
@@ -178,15 +178,13 @@ ul li input[type=text] {
   display: none;
 }
 
-ul 
-li.editMode 
+.edit-mode 
 input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul 
-li.editMode 
+.edit-mode 
 label {
   display: none;
 }
