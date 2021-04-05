@@ -148,18 +148,18 @@ li>input[type="text"] {
   width: 226px;
 }
 
-.todo-list__delete:hover {
+.todo-list__del:hover {
   color: #cf2323;
 }
 
-.todo-list__delete 
+.todo-list__del 
 img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.todo-list__delete 
+.todo-list__del 
 img:hover {
   transform: rotateZ(0);
 }
